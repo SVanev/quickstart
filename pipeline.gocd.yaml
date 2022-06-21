@@ -6,8 +6,8 @@ pipelines:
     lock_behavior: none
     display_order: -1
     materials:
-      git-cccf256:
-        git: https://github.com/SVanev/quickstart.git
+      git-8360436:
+        git: https://github.com/SVanev/quickstart
         shallow_clone: false
         auto_update: true
         branch: main
