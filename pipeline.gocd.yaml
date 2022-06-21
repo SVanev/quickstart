@@ -6,8 +6,8 @@ pipelines:
     lock_behavior: none
     display_order: -1
     materials:
-      git-cccf256:
-        git: https://github.com/SVanev/quickstart.git
+      git-1c3987a:
+        git: https://github.com/SVanev/quickstart
         shallow_clone: false
         auto_update: true
         branch: main
@@ -27,5 +27,5 @@ pipelines:
                     arguments:
                       - clean
                       - package
-                    command: C:\Program Files\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\mvn
+                    command: mvn
                     run_if: passed
